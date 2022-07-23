@@ -1,0 +1,135 @@
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-top: 20px;
+    border-radius: 30px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.first-banner {
+    font-size: 65px;
+    font-weight: 1000;
+}
+
+.fa-angle-right {
+    background-color: #d92626;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.container-one {
+    display: flex;
+}
+
+.container-two {
+    background-color: black;
+    color: #fff;
+    width: 300px;
+    height: 300px;
+    margin-top: 130px;
+    margin-left: 140px;
+    margin-right: 25px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    grid-gap: 10px;
+}
+
+.color {
+    background-color: #fff;
+    color: black;
+    padding: 20px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#red {
+    background-color: #d92626;
+    color: #fff;
+}
+
+.card {
+    border: 1px solid black;
+    border-color: aliceblue;
+    border-radius: 15px;
+    margin-bottom: 25px;
+
+    width: 310px;
+    height: 360px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    margin-left: 140px;
+}
+
+.card-detail {
+    padding-left: 15px;
+}
+
+.transfer {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card-info {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: black;
+    height: 440px;
+    width: auto;
+    padding-top: 40px;
+    color: #fff;
+}
+
+footer h1 {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.socials {
+    text-align: center;
+}
